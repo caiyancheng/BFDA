@@ -19,5 +19,8 @@ If you find this work helpful in your research, please cite.
 ````
 
 ### Acknowledgement
-We greatly acknowledge the authors of _YOLOv5_ for their open-source codes. Visit the following links to access more contributions of them.
+This work was supported in part by the National Natural Science Foundation of China under Grant 62071127 and Grant U1909207, in part by the Shanghai Natural Science Foundation
+under Grant 23ZR1402900, and in part by the Zhejiang Laboratory under Project 2021KH0AB05.
+
+We also greatly acknowledge the authors of _YOLOv5_ for their open-source codes. Visit the following links to access more contributions of them.
 * [YOLOv5](https://github.com/ultralytics/yolov5)
