@@ -17,3 +17,7 @@ If you find this work helpful in your research, please cite.
   publisher={IEEE}
 }
 ````
+
+### Acknowledgement
+We greatly acknowledge the authors of _YOLOv5_ for their open-source codes. Visit the following links to access more contributions of them.
+* [YOLOv5](https://github.com/ultralytics/yolov5)
