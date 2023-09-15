@@ -1,0 +1,19 @@
+#train: ./data/bdd100k/images/train_daytime_tod
+##train: ./data/bdd100k/images/train_daytime_ton
+#train: ./data/bdd100k/images/train_daytime
+#val: ./data/bdd100k/images/val_daytime
+#train: ./data/bdd100k/images/train_dawn
+train: ./data/bdd100k/images/train_night
+val: ./data/bdd100k/images/val_night
+#val: ./data/bdd100k/images/val_daytime_tod
+#val: ./data/bdd100k/images/val_dawn
+#val: ./data/bdd100k/images/val_daytime_ton
+#val: ./data/bdd100k/images/val_night
+#target_train: ./data/bdd100k/images/train_dawn
+##target_train: ./data/bdd100k/images/train_night
+#target_val: ./data/bdd100k/images/val_dawn
+#target_val: ./data/bdd100k/images/val_night
+#不需要什么.txt文件
+nc: 1
+
+names: ['pedestrain']

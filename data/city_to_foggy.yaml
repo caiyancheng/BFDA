@@ -1,0 +1,9 @@
+train: /remote-home/caiyancheng/BFDA_datasets/cityscapes/images/train_all/
+val: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/val_02/
+
+target_train: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/train_02/
+target_val: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/val_02/
+#不需要什么.txt文件
+nc: 1
+
+names: ['pedestrain']

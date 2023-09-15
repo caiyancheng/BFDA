@@ -1,0 +1,7 @@
+train: /remote-home/caiyancheng/BFDA_datasets/Caltech/images/train/
+#train: /remote-home/caiyancheng/BFDA_datasets/Caltech/images/train_and_city/
+val: /remote-home/caiyancheng/BFDA_datasets/Caltech/images/test/
+
+nc: 1
+
+names: ['pedestrain']

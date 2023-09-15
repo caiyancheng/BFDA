@@ -1,0 +1,21 @@
+#train: ./data/cityscapes/images/train_debug
+#val: /remote-home/share/42/cyc19307140030/CVPR/BFNet/FoggyCityscapes_dif_back/0_0.96/images/ #test
+##val: /remote-home/share/42/cyc19307140030/CVPR/BFNet/FoggyCityscapes_dif_back/0.96_0.99/images/
+##val: /remote-home/share/42/cyc19307140030/CVPR/BFNet/FoggyCityscapes_dif_back/0.99_1/images/
+#
+#target_train: ./data/Caltech/images/train_small #_small
+#target_val: ./data/Caltech/images/test
+##不需要什么.txt文件
+#nc: 1
+#
+#names: ['pedestrain']
+
+train: /remote-home/caiyancheng/BFDA_datasets/cityscapes/images/train_all/
+val: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/val_02/
+
+target_train: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/train_02/
+target_val: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/val_02/
+#不需要什么.txt文件
+nc: 1
+
+names: ['pedestrain']

@@ -1,0 +1,9 @@
+train: /remote-home/caiyancheng/BFDA_datasets/cityscapes/images/train_all/
+val: /remote-home/caiyancheng/BFDA_datasets/cityscapes/images/val_all/
+
+#target_train: ./data/cityscapes/images/train_fog
+#target_val: ./data/cityscapes/images/val_fog
+
+nc: 1
+
+names: ['pedestrain']

@@ -1,0 +1,6 @@
+train: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/train_02/
+val: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/val_02/
+
+nc: 1
+
+names: ['pedestrain']

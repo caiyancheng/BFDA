@@ -1,0 +1,41 @@
+# Hyperparameters for COCO training from scratch
+# python train.py --batch 40 --cfg yolov5m.yaml --weights '' --data coco.yaml --img 640 --epochs 300
+# See tutorials for hyperparameter evolution https://github.com/ultralytics/yolov5#tutorials
+
+
+lr0: 0.002 #0.01  # initial learning rate (SGD=1E-2, Adam=1E-3) #1号卡：0.0001  2号卡：0.0005  3号卡：0.00002
+lrf: 0.2  # final OneCycleLR learning rate (lr0 * lrf)#余弦退火超参数
+momentum: 0.937  # SGD momentum/Adam beta1
+weight_decay: 0.0005  # optimizer weight decay 5e-4
+warmup_epochs: 5.0  # warmup epochs (fractions ok)
+warmup_momentum: 0.8  # warmup initial momentum
+warmup_bias_lr: 0.1  # warmup initial bias lr
+box: 0.05  # box loss gain
+cls: 0.5  # cls loss gain#分类损失的系数
+cls_pw: 1.0  # cls BCELoss positive_weight分类BCELoss中正样本的权重
+obj: 1.0  # obj loss gain (scale with pixels)有无物体损失的系数
+obj_pw: 1.0  # obj BCELoss positive_weight有无物体BCELoss中正样本的权重
+iou_t: 0.20  # IoU training threshold标签与anchors的iou阈值iou training threshold
+anchor_t: 4.0  # anchor-multiple threshold标签的长h宽w/anchor的长h_a宽w_a阈值, 即h/h_a, w/w_a都要在(1/4, 4)之间anchor-multiple threshold
+# anchors: 3  # anchors per output layer (0 to ignore)
+fl_gamma: 0.0  # focal loss gamma (efficientDet default gamma=1.5)设为0则表示不使用focal loss(efficientDet default is gamma=1.5)
+hsv_h: 0.015  # image HSV-Hue augmentation (fraction)色调
+hsv_s: 0.7  # image HSV-Saturation augmentation (fraction)饱和度
+hsv_v: 0.4  # image HSV-Value augmentation (fraction)明度
+degrees: 0.0  # image rotation (+/- deg)旋转角度
+translate: 0.1  # image translation (+/- fraction)水平和垂直平移
+scale: 0.5  # image scale (+/- gain)缩放
+shear: 0.0  # image shear (+/- deg)剪切
+perspective: 0.0  # image perspective (+/- fraction), range 0-0.001透视变换参数
+flipud: 0.0  # image flip up-down (probability)上下翻转
+fliplr: 0.5  # image flip left-right (probability)左右翻转
+mosaic: 1.0  # image mosaic (probability)马赛克#1.0
+mixup: 0.0  # image mixup (probability)mixup系数
+###############################
+TRAIN:
+      LEARNING_RATE_D: 1e-4
+      EARLY_STOP: 3000
+      MAX_ITERS: 6000
+      POWER: 0.9
+
+

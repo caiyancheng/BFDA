@@ -1,0 +1,12 @@
+train: ./data/citytobdd/images/train_city
+#train: ./data/citytobdd/images/train_daytime_tocity
+val: ./data/citytobdd/images/val_daytime_tocity
+#val: ./data/citytobdd/images/val_city
+#target_train: ./data/citytobdd/images/train_city
+target_train: ./data/citytobdd/images/train_daytime_tocity
+#target_val: ./data/citytobdd/images/val_city
+target_val: ./data/citytobdd/images/val_daytime_tocity
+#不需要什么.txt文件
+nc: 1
+
+names: ['pedestrain']

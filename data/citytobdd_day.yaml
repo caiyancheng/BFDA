@@ -1,0 +1,10 @@
+train: ./data/cityscapes/images/train_full
+val: ./data/citytobdd/images/val_daytime
+target_train: ./data/citytobdd/images/train_daytime
+target_val: ./data/citytobdd/images/val_daytime
+#不需要什么.txt文件
+nc: 1
+
+names: ['pedestrain']
+
+#bdd:1280*720的图片

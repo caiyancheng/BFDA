@@ -1,0 +1,9 @@
+train: ./data/Caltech/images/train
+val: ./data/cityscapes/images/val_640
+
+target_train: ./data/Caltech/images/train
+target_val: ./data/Caltech/images/test
+#不需要什么.txt文件
+nc: 1
+
+names: ['pedestrain']

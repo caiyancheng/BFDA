@@ -1,0 +1,9 @@
+train: ./data/cityscapes/images/train_full
+val: ./data/bdd100k/images/val_night
+
+target_train: ./data/bdd100k/images/train_night
+target_val: ./data/bdd100k/images/val_night
+#不需要什么.txt文件
+nc: 1
+
+names: ['pedestrain']

@@ -1,0 +1,13 @@
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp2/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp3/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp4/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp5/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp6/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp7/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp8/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp12/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp9/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp13/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp10/weights/best_mr.pt
+python test_foggy.py --device 1 --weights ./runs/UDA_city2foggy_BFDA_full/exp11/weights/best_mr.pt

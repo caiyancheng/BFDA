@@ -1,0 +1,9 @@
+#train: /remote-home/share/Cityscapes/newfoggy_cyc/images/all_2/train/
+#val: /remote-home/share/Cityscapes/newfoggy_cyc/images/all_2/val/
+train: /remote-home/share/Cityscapes/newfoggy_cyc/images/all_1_thickonly/train/
+val: /remote-home/share/Cityscapes/newfoggy_cyc/images/all_1_thickonly/val/
+
+#不需要什么.txt文件
+nc: 8
+
+names: ["person","rider","car","truck","bus","train","motorcycle","bicycle"]

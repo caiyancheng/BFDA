@@ -1,0 +1,19 @@
+#train: ./data/all_class/cityscapes/images/train
+#val: ./data/all_class/foggycityscapes/images/val
+#
+#target_train: ./data/all_class/foggycityscapes/images/train
+#target_val: ./data/all_class/foggycityscapes/images/val
+
+#train: ./data/all_class/cityscapes/images/train_debug
+#val: ./data/all_class/cityscapes/images/val_debug
+#
+target_train: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/train_02_all_class
+target_val: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/val_02_all_class
+
+train: /remote-home/caiyancheng/BFDA_datasets/cityscapes/images/train_all_class
+val: /remote-home/caiyancheng/BFDA_datasets/cityscapes/images/val_all_class
+
+#不需要什么.txt文件
+nc: 8
+
+names: ["person","rider","car","truck","bus","train","motorcycle","bicycle"]

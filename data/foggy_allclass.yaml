@@ -1,0 +1,7 @@
+train: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/train_02_all_class
+val: /remote-home/caiyancheng/BFDA_datasets/foggycityscapes/images/val_02_all_class
+
+#不需要什么.txt文件
+nc: 8
+
+names: ["person","rider","car","truck","bus","train","motorcycle","bicycle"]

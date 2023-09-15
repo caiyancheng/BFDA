@@ -1,0 +1,15 @@
+train: /remote-home/caiyancheng/BFDA_datasets/cityscapes/images/train_all/
+val: /remote-home/caiyancheng/BFDA_datasets/Caltech/images/test/
+
+target_train: /remote-home/caiyancheng/BFDA_datasets/Caltech/images/train/
+target_val: /remote-home/caiyancheng/BFDA_datasets/Caltech/images/test/
+
+#train: /remote-home/caiyancheng/BFDA_datasets/cityscapes/images/train_debug/
+#val: /remote-home/caiyancheng/BFDA_datasets/Caltech/images/test_debug/
+#
+#target_train: /remote-home/caiyancheng/BFDA_datasets/Caltech/images/train_debug/
+#target_val: /remote-home/caiyancheng/BFDA_datasets/Caltech/images/test_debug/
+#不需要什么.txt文件
+nc: 1
+
+names: ['pedestrain']
