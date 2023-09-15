@@ -16,7 +16,10 @@ The primary datasets employed in this paper consist of Cityscapes, Caltech, and 
 * [Cityscapes](https://drive.google.com/drive/folders/1tzEbh6qkd6uzxPWHhZWL5ry7q8FRltcG?usp=sharing)
 * [Caltech](https://drive.google.com/drive/folders/1tzEbh6qkd6uzxPWHhZWL5ry7q8FRltcG?usp=sharing)
 
-For Foggycityscapes, we recommend adopting the identical file structure as that of Cityscapes and utilizing the same label scheme as applied in Cityscapes.
+For Foggycityscapes, we recommend adopting the identical file structure as that of Cityscapes and utilizing the same label scheme as applied in Cityscapes. Specifically, please organize it into the following format:
+''''
+OK
+''''
 
 ### Usage
 
