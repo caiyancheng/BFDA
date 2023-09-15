@@ -11,6 +11,15 @@ Cross-domain pedestrian detection aims to generalize pedestrian detectors from o
   <img src="./images/Figure_1.png" width="100%" height="420">
 </p>
 
+### Datasets
+The primary datasets employed in this paper consist of Cityscapes, Caltech, and Foggycityscapes. Below, we present the Cityscapes and Caltech datasets used in this study:
+* [Cityscapes](https://drive.google.com/drive/folders/1tzEbh6qkd6uzxPWHhZWL5ry7q8FRltcG?usp=sharing)
+* [Caltech](https://drive.google.com/drive/folders/1tzEbh6qkd6uzxPWHhZWL5ry7q8FRltcG?usp=sharing)
+
+For Foggycityscapes, we recommend adopting the identical file structure as that of Cityscapes and utilizing the same label scheme as applied in Cityscapes.
+
+### Usage
+
 ### Citation
 If you find this work helpful in your research, please cite.
 ````
