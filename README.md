@@ -8,7 +8,7 @@ Cross-domain pedestrian detection aims to generalize pedestrian detectors from o
 
 &ensp;
 <p align="center">
-  <img src="images/Figure_1.pdf" width="100%" height="420">
+  <img src="./images/Figure_1.pdf" width="100%" height="420">
 </p>
 
 ### Citation
