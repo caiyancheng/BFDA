@@ -76,7 +76,7 @@ Find "parser.add_argument" when you need to run the py file and set the internal
 </details>
 
 <details open>
-<summary>Training source domain weights (source)</summary>
+<summary>Train source domain weights (source)</summary>
 
 Taking Cityscapes -> Caltech as an example, start by training YOLOv5 detection weights on the source domain, Cityscapes.
 
