@@ -71,7 +71,7 @@ After cloning this repository and downloading the pre-trained weights, please cr
 
 Find "parser.add_argument" in each python file when you need to run the py file and set the internal hyperparameters. Hyperparameters in [hyp.scratch.yaml](https://github.com/caiyancheng/BFDA/blob/main/data/hyp.scratch.yaml) can also be modified.
 
-- Note that BFDA's adversarial learning strategy is sensitive to hyperparameters, so it's recommended to run multiple times with the same set of hyperparameters.
+
 
 </details>
 
@@ -92,9 +92,9 @@ python train_city_tip.py # -- hyperparameters
 Load the best weight trained in the previous step and perform cross-domain detection training.
 
 ```bash
-python train_city_tip.py # -- hyperparameters
+python train_UDA_city2caltech_BFDA_Full.py # -- New hyperparameters, worth trying more
 ```
-
+- Note that BFDA's adversarial learning strategy is sensitive to hyperparameters, so it's recommended to run multiple times with the same set of hyperparameters.
 </details>
 
 
