@@ -66,6 +66,13 @@ After cloning this repository and downloading the pre-trained weights, please cr
 
 </details>
 
+<details open>
+<summary>Set hyperparameters</summary>
+
+Find "parser.add_argument" when you need to run the py file and set the internal hyperparameters. Notice! ! ! BFDA's own adversarial learning strategy is sensitive to hyperparameters, and it is recommended to run the same set of hyperparameters multiple times.
+
+</details>
+
 ### Citation
 If you find this work helpful in your research, please cite.
 ````
