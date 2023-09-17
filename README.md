@@ -51,6 +51,14 @@ pip install -r requirements.txt  # install
 
 </details>
 
+<details open>
+<summary>Download the YOLOv5 pre-trained models</summary>
+
+Due to the continuous iteration of the original YOLOv5 repo, the pre-trained weights used by the BFDA framework can be downloaded here:
+[YOLOv5 pre-trained models](https://drive.google.com/drive/folders/1I5zM935VgVTQt7rT0adL_K5ajRt0fFDv?usp=sharing).
+
+</details>
+
 ### Citation
 If you find this work helpful in your research, please cite.
 ````
