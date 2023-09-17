@@ -71,9 +71,21 @@ After cloning this repository and downloading the pre-trained weights, please cr
 
 Find "parser.add_argument" when you need to run the py file and set the internal hyperparameters. 
 
-- Note that BFDA's own adversarial learning strategy is sensitive to hyperparameters, and it is recommended to run the same set of hyperparameters multiple times.
+- Note that BFDA's adversarial learning strategy is sensitive to hyperparameters, so it's recommended to run multiple iterations with the same set of hyperparameters.
 
 </details>
+
+<details open>
+<summary>Training source domain weights (source)</summary>
+
+Taking Cityscapes -> Caltech as an example, start by training YOLOv5 detection weights on the source domain, Cityscapes.
+
+```bash
+python train_city_tip.py # -- hyperparameters
+```
+
+</details>
+
 
 ### Citation
 If you find this work helpful in your research, please cite.
