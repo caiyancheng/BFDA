@@ -86,6 +86,17 @@ python train_city_tip.py # -- hyperparameters
 
 </details>
 
+<details open>
+<summary>Cross-domain training</summary>
+
+Load the best weight trained in the previous step and perform cross-domain detection training.
+
+```bash
+python train_city_tip.py # -- hyperparameters
+```
+
+</details>
+
 
 ### Citation
 If you find this work helpful in your research, please cite.
