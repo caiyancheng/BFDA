@@ -71,7 +71,7 @@ After cloning this repository and downloading the pre-trained weights, please cr
 
 Find "parser.add_argument" in each python file when you need to run the py file and set the internal hyperparameters. Hyperparameters in [hyp.scratch.yaml](https://github.com/caiyancheng/BFDA/blob/main/data/hyp.scratch.yaml) can also be modified.
 
-- Note that BFDA's adversarial learning strategy is sensitive to hyperparameters, so it's recommended to run multiple iterations with the same set of hyperparameters.
+- Note that BFDA's adversarial learning strategy is sensitive to hyperparameters, so it's recommended to run multiple times with the same set of hyperparameters.
 
 </details>
 
