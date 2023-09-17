@@ -36,6 +36,20 @@ Foggycityscapes
 ````
 
 ### Usage
+<details open>
+<summary>Conda environment</summary>
+
+Clone repo and install [requirements.txt](https://github.com/caiyancheng/BFDA/blob/main/requirements.txt) in a
+[**Python>=3.8.0**](https://www.python.org/) environment, including
+[**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
+
+```bash
+git clone https://github.com/caiyancheng/BFDA.git  # clone
+cd BFDA
+pip install -r requirements.txt  # install
+```
+
+</details>
 
 ### Citation
 If you find this work helpful in your research, please cite.
