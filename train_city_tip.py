@@ -562,7 +562,7 @@ if __name__ == '__main__':
     parser.add_argument('--data', type=str, default='data/cityperson.yaml', help='data.yaml path')#数据集目录
     parser.add_argument('--hyp', type=str, default='data/hyp.scratch.yaml', help='hyperparameters path')#超参们
     parser.add_argument('--epochs', type=int, default=100)#几个epoch?
-    parser.add_argument('--batch-size', type=int, default=8, help='total batch size for all GPUs')#batchsize
+    parser.add_argument('--batch-size', type=int, default=6, help='total batch size for all GPUs')#batchsize
     parser.add_argument('--img-size', nargs='+', type=int, default=[2048, 2048], help='[train, test] image sizes')#切割
     parser.add_argument('--rect',action='store_true',default=False, help='rectangular training')
     parser.add_argument('--resume', nargs='?', const=True, default=False, help='resume most recent training')

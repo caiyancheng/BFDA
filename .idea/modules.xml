@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/BFDA_old_yolov5.iml" filepath="$PROJECT_DIR$/.idea/BFDA_old_yolov5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BFDA.iml" filepath="$PROJECT_DIR$/.idea/BFDA.iml" />
     </modules>
   </component>
 </project>

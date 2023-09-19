@@ -3,7 +3,7 @@
 # See tutorials for hyperparameter evolution https://github.com/ultralytics/yolov5#tutorials
 
 
-lr0: 0.002 #0.01  # initial learning rate (SGD=1E-2, Adam=1E-3) #1号卡：0.0001  2号卡：0.0005  3号卡：0.00002
+lr0: 0.001 #0.01  # initial learning rate (SGD=1E-2, Adam=1E-3) #1号卡：0.0001  2号卡：0.0005  3号卡：0.00002
 lrf: 0.2  # final OneCycleLR learning rate (lr0 * lrf)#余弦退火超参数
 momentum: 0.937  # SGD momentum/Adam beta1
 weight_decay: 0.0005  # optimizer weight decay 5e-4
